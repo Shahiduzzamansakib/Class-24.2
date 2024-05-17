@@ -1,0 +1,96 @@
+/* Common Css Start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common Css End */
+
+#clock{
+
+  background: rgba(29, 28, 28, 0.6);
+  height: 100vh;
+  display: flex;
+  
+  
+}
+#clock .container{
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+#clock .box{
+
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 5px;
+}
+#clock .min::before{
+
+  content: ':';
+  position: absolute;
+  left: -25%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+
+  
+}
+#clock .min::after{
+
+  content: ':';
+  position: absolute;
+  left: 115%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
